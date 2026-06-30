@@ -16,7 +16,6 @@ This repository contains the configuration files, catalogs, and documentation re
 To fully reproduce this analysis in a Linux environment, you will need:
 * **SExtractor** (Source-Extractor) v2.25.0 or higher.
 * **TOPCAT** (Tool for OPerations on Catalogues And Tables) - *Can be executed via JAR or AppImage*.
-* **LaTeX** distribution (e.g., TeX Live) for compiling the manuscript.
 
 ## Data Acquisition
 
