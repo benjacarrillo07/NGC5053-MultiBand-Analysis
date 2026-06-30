@@ -5,7 +5,7 @@ This repository contains the configuration files, catalogs, and documentation re
 ## Repository Structure
 
 * `data/`
-  * `raw/`: *(Note: Raw FITS images exceed GitHub's file size limits. Run "raw_data_download_script" code to download them).*
+  * `raw/`: *Raw .fits images for g, r and z bands.*
   * `catalogs/`: Final combined catalogs (g, r, z bands).
 * `sextractor/`: Complete suite of SExtractor configuration files used for point-source extraction (`.sex`, `.param`, `.conv`, `.nnw`).
 * `analysis/`: TOPCAT session files containing the exact Boolean masks, kinematic subsets and Gaia DR3 cross-matches.
@@ -21,7 +21,7 @@ To fully reproduce this analysis in a Linux environment, you will need:
 ## Data Acquisition
 
 The primary photometric data was obtained from the **DESI Legacy Imaging Surveys DR10**. 
-To run the extraction locally, download the $g$, $r$, and $z$ band FITS cutouts centered on NGC 5053 and place them in the `data/raw/` directory.
+To ensure full reproducibility and facilitate the download process, an automated extraction script is included in this repository. You can run the provided Jupyter Notebook (`raw_data_download_script.ipynb`) to automatically fetch the $g$, $r$, and $z$ band FITS cutouts centered on NGC 5053 directly from the NOIRLab servers.
 
 ## Reproducing the Photometry (Dual-Image Mode)
 
