@@ -32,4 +32,4 @@ This approach uses the high signal-to-noise $r$-band image for source detection 
 Navigate to the root directory in your terminal and execute the following command:
 
 ```bash
-sex data/raw/image_r.fits data/raw/image_z.fits -c sextractor/default.sex
+source-extractor DESI_ls-dr10_banda_r.fits  DESI_ls-dr10_banda_z.fits -c default.sex
